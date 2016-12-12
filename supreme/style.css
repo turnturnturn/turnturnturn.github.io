@@ -1,0 +1,79 @@
+/* ******* COMMON ********** */
+html {
+  height: 100%;
+  background: url(images/bg.gif) center no-repeat;
+  background-color: black;
+  background-size: cover;
+}
+body {
+  font-size: 13px;
+  font-family: "Courier New",Courier,Monaco, serif;
+  color: white;
+  padding-top: 200px;
+}
+* {
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.header, .body, .footer {
+  /*border: 1px solid white;*/
+}
+
+/* ******* HEAD ********** */
+
+.logo {
+  margin-bottom: 10px;
+}
+
+.header {
+  margin-bottom: 100px;
+}
+
+/* ******* BODY ********** */
+
+.navigation li {
+  margin-bottom: 15px;
+}
+
+.navigation a:hover {
+  background: red;
+}
+
+.body {
+  margin-bottom: 50px;
+}
+
+
+/* ******* FOOTER ********** */
+
+.social-links li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.social-links img {
+  max-width: 100%;
+}
+
+.social-links a {
+  opacity: 0.2;
+}
+.social-links a:hover {
+  opacity: 0.9;
+}
